@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    font-family:"inter";
+    
+}
+
+#logo{
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+#titulo-superior{
+    margin-left: 200px;
+    margin-top: 75px;
+
+}
+
+#texto-superior{
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+background-image: url(./imagens/banner.svg);
+color: white;
+}
+
+#menu-informacional{
+    background-color:#EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0px 50px 120px;
+    padding: 20px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#seçaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo{
+    color:#247BA0 ;
+    margin: 100px 50px 0px 0px
+}
+
+#video{
+    margin: 75px 30px 50px 150px;
+}
+
+#textovideo{
+    margin: 0px 50px 50px 0px;
+
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrosel{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#seçao-cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#samanta{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+}
+.setas{
+    margin-top: 100%;
+    cursor: pointer;
+    
+}
+
+.cards{
+    width:90%;
+    height: auto;
+   
+}
+
+.setas:hover{
+    transform: translateY(-7px);
+    animation-duration: 0.5s;                                    
+  
+}
+
+#formulario{ 
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+    
+
+}
+#titulo-formulario{
+    color: #383838;
+    margin-top: 25px;
+    font-size: 30px;
+
+}
+
+input{
+    width: 380px;
+    height: 40px;
+    padding-left: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.726);
+}
+
+button{
+width: 300px;
+height: 50px;
+margin-bottom: 100px;
+border: 0px;
+border-radius: 10px;
+background-color: #247BA0;
+color: #EAECE5;
+cursor: pointer;
+font-weight: bolder;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    background-color: #1e6888 ;
+    color: aliceblue;
+    box-shadow: 0px 15px 20px  #163a648f;
+
+}
